@@ -1,9 +1,7 @@
 language: node_js
 node_js:
   - '12'
-dist: trusty
-env:
-  - DOCKER_COMPOSE_VERSION=1.4.2 CI=true
+dist: bionic
 services:
   - docker
 before_install:
