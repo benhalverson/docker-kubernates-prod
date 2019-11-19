@@ -10,3 +10,13 @@ cache:
     - node_modules
 script:
   - docker run -e CI=true benhalverson/docker-kubernates-prod npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-west-2"
+  app: "docker-demo"
+  env: "DockerDemo-env"
+  bucket_name: "elasticbeanstalk-us-west-2-811145310164"
+  bucket_path: "docker-demo"
+  on:
+    branch: master
