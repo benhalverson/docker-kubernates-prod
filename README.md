@@ -1,4 +1,5 @@
-# Multicontainer docker setup for AWS / GCP
+# docker container setup for AWS
+[![Build Status](https://travis-ci.com/benhalverson/docker-kubernates-prod.svg?branch=master)](https://travis-ci.com/benhalverson/docker-kubernates-prod)
 
 ## Features include: 
   - local react dev server
