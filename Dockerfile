@@ -1,4 +1,4 @@
-FROM node:13.3.0-alpine as builder
+FROM node:13.4.0-alpine as builder
 
 WORKDIR /app
 
